@@ -1,0 +1,149 @@
+section_subject_domain_of_ancient_rome
+=> nrel_main_idtf:
+    [Раздел. Предметная область Древнего Рима]
+    (* <- lang_ru;; *);
+    [Section. Subject domain of Ancient Rome]
+    (* <- lang_en;; *);
+<- atomic_section;;
+
+section_subject_domain_of_ancient_rome = [*
+    subject_domain_of_ancient_rome
+    <- sc_node_struct;
+    => nrel_main_idtf:
+        [Предметная область Древнего Рима]
+        (* <- lang_ru;; *);
+        [Subject domain of Ancient Rome]
+        (* <- lang_en;; *);
+    <- subject_domain;
+    -> rrel_maximum_studied_object_class:
+        concept_ancient_roman_person;
+        concept_roman_public_office;
+        concept_roman_state_body;
+        concept_roman_military_unit;
+        concept_roman_social_stratum;
+        concept_historical_period_of_ancient_rome;
+    -> rrel_not_maximum_studied_object_class:
+        concept_citizenship_status;
+        concept_curule_magistracy;
+        concept_ethnic_group;
+        concept_extraordinary_magistracy;
+        concept_gladiator;
+        concept_legendary_person;
+        concept_magistracy_with_imperium;
+        concept_number;
+        concept_office_holding_fact;
+        concept_ordinary_magistracy;
+        concept_plebeian_magistracy;
+        concept_principate;
+        concept_privileged_stratum;
+        concept_property_qualification;
+        concept_right_of_roman_citizen;
+        concept_roman_armed_conflict;
+        concept_roman_auxiliary_troops;
+        concept_roman_cavalry_unit;
+        concept_roman_deity;
+        concept_roman_dynasty;
+        concept_roman_emperor;
+        concept_roman_empire_period;
+        concept_roman_guard_unit;
+        concept_roman_infantry_unit;
+        concept_roman_king;
+        concept_roman_kingdom_period;
+        concept_roman_law;
+        concept_roman_legion;
+        concept_roman_magistracy;
+        concept_roman_magistrate;
+        concept_roman_military_commander;
+        concept_roman_military_office;
+        concept_roman_popular_assembly;
+        concept_roman_priesthood;
+        concept_roman_republic_period;
+        concept_roman_ruler;
+        concept_time_interval;
+        concept_type_of_roman_power;
+        concept_unprivileged_stratum;
+        concept_year;
+    -> rrel_explored_relation:
+        nrel_abolition_year;
+        nrel_conflict_leader;
+        nrel_conflict_years;
+        nrel_defeated_by;
+        nrel_deification;
+        nrel_dynasty_membership;
+        nrel_established_by;
+        nrel_establishment_year;
+        nrel_granted_right;
+        nrel_greater;
+        nrel_magistracy_holding;
+        nrel_next_office_in_cursus_honorum;
+        nrel_office_collegiality;
+        nrel_office_existence_period;
+        nrel_office_minimum_age;
+        nrel_office_power_type;
+        nrel_office_term_length;
+        nrel_ordinal_in_dynasty;
+        nrel_origin;
+        nrel_period_membership;
+        nrel_period_years;
+        nrel_priesthood_deity;
+        nrel_property_qualification_value;
+        nrel_reign_years;
+        nrel_ruler_predecessor;
+        nrel_social_stratum_membership;
+        nrel_stratum_qualification;
+        nrel_unit_commander_office;
+        nrel_unit_part;
+        nrel_unit_strength;
+        nrel_veto_right_over;
+        rrel_held_office;
+        rrel_office_holder;
+        rrel_ordinal_number;
+        rrel_term_end_year;
+        rrel_term_start_year;;
+*];;
+
+section_subject_domain_of_ancient_rome
+-> rrel_key_sc_element:
+    subject_domain_of_ancient_rome;
+    concept_ancient_roman_person;
+    concept_roman_public_office;
+    concept_roman_state_body;
+    concept_roman_military_unit;
+    concept_roman_social_stratum;
+    concept_historical_period_of_ancient_rome;
+    nrel_abolition_year;
+    nrel_conflict_leader;
+    nrel_conflict_years;
+    nrel_defeated_by;
+    nrel_deification;
+    nrel_dynasty_membership;
+    nrel_established_by;
+    nrel_establishment_year;
+    nrel_granted_right;
+    nrel_greater;
+    nrel_magistracy_holding;
+    nrel_next_office_in_cursus_honorum;
+    nrel_office_collegiality;
+    nrel_office_existence_period;
+    nrel_office_minimum_age;
+    nrel_office_power_type;
+    nrel_office_term_length;
+    nrel_ordinal_in_dynasty;
+    nrel_origin;
+    nrel_period_membership;
+    nrel_period_years;
+    nrel_priesthood_deity;
+    nrel_property_qualification_value;
+    nrel_reign_years;
+    nrel_ruler_predecessor;
+    nrel_social_stratum_membership;
+    nrel_stratum_qualification;
+    nrel_unit_commander_office;
+    nrel_unit_part;
+    nrel_unit_strength;
+    nrel_veto_right_over;
+    rrel_held_office;
+    rrel_office_holder;
+    rrel_ordinal_number;
+    rrel_term_end_year;
+    rrel_term_start_year;;

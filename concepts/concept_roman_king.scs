@@ -1,0 +1,12 @@
+concept_roman_king
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [римский царь]
+    (* <- lang_ru;; *);
+<= nrel_inclusion:
+    concept_roman_ruler;
+=> nrel_note:
+    [Верховный правитель Рима в царский период. Царь совмещал военные, судебные и жреческие полномочия.
+     Согласно традиции, царей было семеро]
+    (* <- lang_ru;; *);;

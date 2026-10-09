@@ -1,0 +1,12 @@
+concept_magistracy_with_imperium
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [магистратура, обладающая империем]
+    (* <- lang_ru;; *);
+<= nrel_inclusion:
+    concept_roman_magistracy;
+=> nrel_note:
+    [Магистратура, дающая право высшего военного и судебного командования. Империем обладали консулы, преторы
+     и диктатор; цензоры и квесторы им не обладали]
+    (* <- lang_ru;; *);;

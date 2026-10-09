@@ -1,0 +1,12 @@
+concept_roman_republic_period
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [период Римской республики]
+    (* <- lang_ru;; *);
+<= nrel_inclusion:
+    concept_historical_period_of_ancient_rome;
+=> nrel_note:
+    [Период с 509 по 27 год до н. э., когда высшая власть принадлежала выборным магистратам, сенату и
+     народным собраниям. Именно в это время складывается система магистратур и cursus honorum]
+    (* <- lang_ru;; *);;

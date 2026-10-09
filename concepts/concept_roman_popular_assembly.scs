@@ -1,0 +1,12 @@
+concept_roman_popular_assembly
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [народное собрание]
+    (* <- lang_ru;; *);
+<= nrel_inclusion:
+    concept_roman_state_body;
+=> nrel_note:
+    [Собрание римских граждан, обладавшее правом избирать магистратов, принимать законы и выносить судебные
+     решения. Различались куриатные, центуриатные и трибутные комиции]
+    (* <- lang_ru;; *);;

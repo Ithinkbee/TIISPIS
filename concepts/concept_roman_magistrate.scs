@@ -1,0 +1,12 @@
+concept_roman_magistrate
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [римский магистрат]
+    (* <- lang_ru;; *);
+<= nrel_inclusion:
+    concept_ancient_roman_person;
+=> nrel_note:
+    [Должностное лицо Римского государства, избранное на магистратуру. Магистраты не получали жалованья и
+     несли ответственность за свои действия по истечении срока полномочий]
+    (* <- lang_ru;; *);;

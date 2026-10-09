@@ -1,0 +1,12 @@
+concept_gladiator
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [гладиатор]
+    (* <- lang_ru;; *);
+<= nrel_inclusion:
+    concept_ancient_roman_person;
+=> nrel_note:
+    [Боец, выступавший на публичных играх. Гладиаторами становились рабы, военнопленные, осуждённые
+     преступники, реже свободные добровольцы. Обучались в специальных школах]
+    (* <- lang_ru;; *);;

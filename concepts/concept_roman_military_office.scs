@@ -1,0 +1,12 @@
+concept_roman_military_office
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [римская воинская должность]
+    (* <- lang_ru;; *);
+<= nrel_inclusion:
+    concept_roman_public_office;
+=> nrel_note:
+    [Командная или специальная должность в римской армии. В имперский период образует чёткую иерархию от
+     легата легиона до опциона]
+    (* <- lang_ru;; *);;

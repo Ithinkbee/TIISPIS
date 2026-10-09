@@ -1,0 +1,107 @@
+patricians
+<- concept_privileged_stratum;
+=> nrel_main_idtf: [патриции] (* <- lang_ru;; *);
+=> nrel_note: [Родовая знать Рима, первоначально монопольно владевшая землёй и местами в сенате. Плебеи получили доступ к высшим должностям около 444 года до н. э] (* <- lang_ru;; *);;
+
+senatorial_order
+<- concept_privileged_stratum;
+=> nrel_main_idtf: [сенаторское сословие] (* <- lang_ru;; *);
+=> nrel_stratum_qualification: senatorial_qualification;
+=> nrel_note: [Высшее сословие империи, пополнявшееся как из патрицианских, так и из плебейских родов по имущественному и политическому признаку] (* <- lang_ru;; *);;
+
+equestrian_order
+<- concept_privileged_stratum;
+=> nrel_main_idtf: [всадническое сословие] (* <- lang_ru;; *);
+=> nrel_stratum_qualification: equestrian_qualification;
+=> nrel_note: [Сословие, выделяемое по имущественному цензу. В центуриатных комициях всадникам принадлежало восемнадцать центурий] (* <- lang_ru;; *);;
+
+plebs
+<- concept_unprivileged_stratum;
+=> nrel_main_idtf: [плебеи] (* <- lang_ru;; *);
+=> nrel_note: [Основная масса свободного населения Рима, первоначально не допускавшаяся к высшим должностям. Ко II веку до н. э. имущественные различия с патрициями во многом стёрлись] (* <- lang_ru;; *);;
+
+freedmen
+<- concept_unprivileged_stratum;
+=> nrel_main_idtf: [вольноотпущенники] (* <- lang_ru;; *);
+=> nrel_note: [Бывшие рабы, получавшие при отпуске на волю гражданство, но остававшиеся ограниченными в правах] (* <- lang_ru;; *);;
+
+slaves
+<- concept_unprivileged_stratum;
+=> nrel_main_idtf: [рабы] (* <- lang_ru;; *);
+=> nrel_note: [Лица, не обладавшие правоспособностью и рассматривавшиеся правом как вещь, а не как субъект] (* <- lang_ru;; *);;
+
+peregrini
+<- concept_unprivileged_stratum;
+=> nrel_main_idtf: [перегрины] (* <- lang_ru;; *);
+=> nrel_note: [Свободные жители провинций, не имевшие римского гражданства и жившие по местному праву вплоть до 212 года н. э] (* <- lang_ru;; *);;
+
+senatorial_qualification
+<- concept_property_qualification;
+=> nrel_main_idtf: [сенаторский ценз] (* <- lang_ru;; *);
+=> nrel_property_qualification_value: number_1000000;
+=> nrel_note: [Имущественный ценз в один миллион сестерциев, впервые установленный Августом для допуска в сенат] (* <- lang_ru;; *);;
+
+equestrian_qualification
+<- concept_property_qualification;
+=> nrel_main_idtf: [всаднический ценз] (* <- lang_ru;; *);
+=> nrel_property_qualification_value: number_400000;
+=> nrel_note: [Имущественный ценз в четыреста тысяч сестерциев, установленный Августом для всаднического сословия, то есть в два с половиной раза ниже сенаторского] (* <- lang_ru;; *);;
+
+cives_romani
+<- concept_citizenship_status;
+=> nrel_main_idtf: [римские граждане] (* <- lang_ru;; *);
+=> nrel_granted_right: ius_suffragii;
+=> nrel_granted_right: ius_honorum;
+=> nrel_granted_right: ius_commercii;
+=> nrel_granted_right: ius_connubii;
+=> nrel_granted_right: ius_provocationis;
+=> nrel_note: [Высший статус, дававший всю полноту прав, включая право голоса и право занимать государственные должности] (* <- lang_ru;; *);;
+
+latini
+<- concept_citizenship_status;
+=> nrel_main_idtf: [латины] (* <- lang_ru;; *);
+=> nrel_granted_right: ius_commercii;
+=> nrel_note: [Обладатели латинского права, имевшие право торговли и переселения, но не право законного брака с римскими гражданами] (* <- lang_ru;; *);;
+
+socii
+<- concept_citizenship_status;
+=> nrel_main_idtf: [союзники] (* <- lang_ru;; *);
+=> nrel_note: [Общины, связанные с Римом договором, получавшие правовую защиту в обмен на обязанность выставлять войска] (* <- lang_ru;; *);;
+
+ius_suffragii <- concept_right_of_roman_citizen;
+=> nrel_main_idtf: [право голоса] (* <- lang_ru;; *);;
+ius_honorum <- concept_right_of_roman_citizen;
+=> nrel_main_idtf: [право занимать государственные должности] (* <- lang_ru;; *);;
+ius_commercii <- concept_right_of_roman_citizen;
+=> nrel_main_idtf: [право торговли] (* <- lang_ru;; *);;
+ius_connubii <- concept_right_of_roman_citizen;
+=> nrel_main_idtf: [право законного брака] (* <- lang_ru;; *);;
+ius_provocationis <- concept_right_of_roman_citizen;
+=> nrel_main_idtf: [право апелляции] (* <- lang_ru;; *);;
+
+/* ЛР2: примечания */
+
+ius_commercii
+=> nrel_note:
+    [Право заключать сделки и приобретать собственность по римскому праву]
+    (* <- lang_ru;; *);;
+
+ius_connubii
+=> nrel_note:
+    [Право вступать в законный брак с римским гражданином; дети от такого брака считались законными и наследовали статус отца]
+    (* <- lang_ru;; *);;
+
+ius_honorum
+=> nrel_note:
+    [Право римского гражданина избираться на государственные должности]
+    (* <- lang_ru;; *);;
+
+ius_provocationis
+=> nrel_note:
+    [Право римского гражданина обжаловать перед народным собранием приговор магистрата]
+    (* <- lang_ru;; *);;
+
+ius_suffragii
+=> nrel_note:
+    [Право римского гражданина голосовать в народных собраниях]
+    (* <- lang_ru;; *);;

@@ -1,0 +1,115 @@
+consulate
+<- concept_ordinary_magistracy;
+<- concept_curule_magistracy;
+<- concept_magistracy_with_imperium;
+=> nrel_main_idtf: [консулат] (* <- lang_ru;; *);
+=> nrel_office_collegiality: number_2;
+=> nrel_office_term_length: interval_one_year;
+=> nrel_office_minimum_age: number_42;
+=> nrel_office_power_type: imperium;
+=> nrel_office_existence_period: roman_republic;
+=> nrel_next_office_in_cursus_honorum: censorship;
+=> nrel_note: [Высшая ординарная магистратура Римской республики. Ежегодно избирались два консула, обладавшие равной властью и правом взаимного вето] (* <- lang_ru;; *);;
+
+praetorship
+<- concept_ordinary_magistracy;
+<- concept_curule_magistracy;
+<- concept_magistracy_with_imperium;
+=> nrel_main_idtf: [претура] (* <- lang_ru;; *);
+=> nrel_office_term_length: interval_one_year;
+=> nrel_office_minimum_age: number_39;
+=> nrel_office_power_type: imperium;
+=> nrel_office_existence_period: roman_republic;
+=> nrel_next_office_in_cursus_honorum: consulate;
+=> nrel_note: [Магистратура, ведавшая судопроизводством и командовавшая войсками в провинциях. Претор обладал империем, но рангом ниже консульского] (* <- lang_ru;; *);;
+
+censorship
+<- concept_ordinary_magistracy;
+<- concept_curule_magistracy;
+=> nrel_main_idtf: [цензура] (* <- lang_ru;; *);
+=> nrel_office_collegiality: number_2;
+=> nrel_office_term_length: interval_eighteen_months;
+=> nrel_office_power_type: potestas;
+=> nrel_office_existence_period: roman_republic;
+=> nrel_establishment_year: year_443_bc;
+=> nrel_note:
+    [Магистратура, проводившая ценз, распределявшая граждан по разрядам и составлявшая список сената.
+    Избирались двое; срок был ограничен восемнадцатью месяцами законом 433 года до н. э., а выборы
+    проводились раз в люстр, то есть раз в пять лет. Империем цензоры не обладали и ликторов не имели.
+    Занимать цензуру могли, как правило, только бывшие консулы, а с 265 года до н. э. повторное занятие
+    должности было запрещено. Считалась вершиной политической карьеры]
+    (* <- lang_ru;; *);;
+
+curule_aedileship
+<- concept_ordinary_magistracy;
+<- concept_curule_magistracy;
+=> nrel_main_idtf: [курульный эдилитет] (* <- lang_ru;; *);
+=> nrel_office_collegiality: number_2;
+=> nrel_office_term_length: interval_one_year;
+=> nrel_office_minimum_age: number_36;
+=> nrel_office_power_type: potestas;
+=> nrel_next_office_in_cursus_honorum: praetorship;
+=> nrel_note: [Магистратура, ведавшая надзором за рынками, городским хозяйством и устройством публичных игр] (* <- lang_ru;; *);;
+
+quaestorship
+<- concept_ordinary_magistracy;
+=> nrel_main_idtf: [квестура] (* <- lang_ru;; *);
+=> nrel_office_term_length: interval_one_year;
+=> nrel_office_minimum_age: number_30;
+=> nrel_office_power_type: potestas;
+=> nrel_next_office_in_cursus_honorum: curule_aedileship;
+=> nrel_note: [Низшая ступень cursus honorum, ведавшая финансами при консулах и наместниках провинций. Минимальный возраст в тридцать лет установлен реформами Суллы] (* <- lang_ru;; *);;
+
+plebeian_tribunate
+<- concept_ordinary_magistracy;
+<- concept_plebeian_magistracy;
+=> nrel_main_idtf: [народный трибунат] (* <- lang_ru;; *);
+=> nrel_office_collegiality: number_10;
+=> nrel_office_term_length: interval_one_year;
+=> nrel_office_power_type: potestas;
+=> nrel_veto_right_over: consulate;
+=> nrel_note: [Должность, замещаемая только плебеями. Трибуны были неприкосновенны и обладали правом вето на решения магистратов, но формально магистратами не считались] (* <- lang_ru;; *);;
+
+dictatorship
+<- concept_extraordinary_magistracy;
+<- concept_magistracy_with_imperium;
+=> nrel_main_idtf: [диктатура] (* <- lang_ru;; *);
+=> nrel_office_collegiality: number_1;
+=> nrel_office_term_length: interval_six_months;
+=> nrel_office_power_type: imperium;
+=> nrel_note: [Экстраординарная магистратура, учреждавшаяся в чрезвычайных обстоятельствах. Диктатор обладал всей полнотой власти и назначался на срок не более шести месяцев] (* <- lang_ru;; *);;
+
+magister_equitum
+<- concept_extraordinary_magistracy;
+=> nrel_main_idtf: [начальник конницы] (* <- lang_ru;; *);
+=> nrel_office_collegiality: number_1;
+=> nrel_office_power_type: imperium;
+=> nrel_abolition_year: year_44_bc;
+=> nrel_note: [Помощник диктатора, назначавшийся им самим. Должность упразднена в 44 году до н. э] (* <- lang_ru;; *);;
+
+interrex
+<- concept_extraordinary_magistracy;
+=> nrel_main_idtf: [интеррекс] (* <- lang_ru;; *);
+=> nrel_office_existence_period: roman_kingdom;
+=> nrel_note: [Временный правитель, назначавшийся в междуцарствие для проведения выборов нового царя, а позднее консулов] (* <- lang_ru;; *);;
+
+pontifex_maximus
+<- concept_roman_priesthood;
+=> nrel_main_idtf: [великий понтифик] (* <- lang_ru;; *);
+=> nrel_note: [Глава коллегии понтификов, высшая жреческая должность римского государственного культа] (* <- lang_ru;; *);;
+
+flamen_quirinalis
+<- concept_roman_priesthood;
+=> nrel_main_idtf: [фламин Квирина] (* <- lang_ru;; *);
+=> nrel_priesthood_deity: quirinus;
+=> nrel_established_by: numa_pompilius;
+=> nrel_note: [Жрец Квирина, один из трёх старших фламинов. Патрицианская должность, по старшинству следовавшая за фламинами Юпитера и Марса] (* <- lang_ru;; *);;
+
+year_44_bc <- concept_year;
+=> nrel_main_idtf: [44 год до н. э.] (* <- lang_ru;; *);;
+year_212_ad <- concept_year;
+=> nrel_main_idtf: [212 год н. э.] (* <- lang_ru;; *);;
+year_180_bc <- concept_year;
+=> nrel_main_idtf: [180 год до н. э.] (* <- lang_ru;; *);;
+year_443_bc <- concept_year;
+=> nrel_main_idtf: [443 год до н. э.] (* <- lang_ru;; *);;

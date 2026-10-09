@@ -1,0 +1,18 @@
+rrel_ordinal_number
+<- sc_node_role_relation;
+<- relation;
+<- role_relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+    [порядковый номер']
+    (* <- lang_ru;; *);
+=> nrel_idtf:
+    [порядковый номер]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [Роль порядкового номера элемента в упорядоченной последовательности]
+    (* <- lang_ru;; *);;

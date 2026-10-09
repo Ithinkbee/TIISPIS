@@ -1,0 +1,91 @@
+/* Классы сообщений сценария диалога ЛР 2. Идентификатор nrel_wit_ai_idtf
+   совпадает с именем интента в приложении Wit.ai rome_nika. */
+
+concept_message_about_ruler_predecessor
+<- sc_node_class;
+=> nrel_main_idtf:
+    [сообщение о предшественнике правителя]
+    (* <- lang_ru;; *);
+=> nrel_wit_ai_idtf:
+    [about_ruler_predecessor];
+<= nrel_inclusion: concept_atomic_message;
+<- rrel_key_sc_element:
+    ...
+    (*
+    => nrel_main_idtf:
+        [Опр. (сообщение о предшественнике правителя)]
+        (* <- lang_ru;; *);;
+    <- definition;;
+    <= nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Сообщение о предшественнике правителя - атомарное сообщение, в котором спрашивается, кто правил непосредственно перед указанным правителем Древнего Рима.]
+            (* <- lang_ru;; *);;
+        *);;
+    <= nrel_using_constants: {
+        concept_atomic_message;
+        rrel_entity
+    };;
+    *);;
+
+concept_message_about_defeat
+<- sc_node_class;
+=> nrel_main_idtf:
+    [сообщение о поражении]
+    (* <- lang_ru;; *);
+=> nrel_wit_ai_idtf:
+    [about_defeat];
+<= nrel_inclusion: concept_atomic_message;
+<- rrel_key_sc_element:
+    ...
+    (*
+    => nrel_main_idtf:
+        [Опр. (сообщение о поражении)]
+        (* <- lang_ru;; *);;
+    <- definition;;
+    <= nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Сообщение о поражении - атомарное сообщение, в котором спрашивается, кем было нанесено военное поражение указанному лицу Древнего Рима.]
+            (* <- lang_ru;; *);;
+        *);;
+    <= nrel_using_constants: {
+        concept_atomic_message;
+        rrel_entity
+    };;
+    *);;
+
+concept_message_about_unit_strength
+<- sc_node_class;
+=> nrel_main_idtf:
+    [сообщение о численности подразделения]
+    (* <- lang_ru;; *);
+=> nrel_wit_ai_idtf:
+    [about_unit_strength];
+<= nrel_inclusion: concept_atomic_message;
+<- rrel_key_sc_element:
+    ...
+    (*
+    => nrel_main_idtf:
+        [Опр. (сообщение о численности подразделения)]
+        (* <- lang_ru;; *);;
+    <- definition;;
+    <= nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Сообщение о численности подразделения - атомарное сообщение, в котором спрашивается о штатной численности указанного подразделения римской армии.]
+            (* <- lang_ru;; *);;
+        *);;
+    <= nrel_using_constants: {
+        concept_atomic_message;
+        rrel_entity
+    };;
+    *);;
+
+concept_intent_possible_class
+-> concept_message_about_ruler_predecessor;
+-> concept_message_about_defeat;
+-> concept_message_about_unit_strength;;

@@ -1,0 +1,12 @@
+concept_roman_empire_period
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [период Римской империи]
+    (* <- lang_ru;; *);
+<= nrel_inclusion:
+    concept_historical_period_of_ancient_rome;
+=> nrel_note:
+    [Период с 27 года до н. э., когда власть сосредоточилась в руках принцепса, а затем императора.
+     Республиканские магистратуры сохраняются, но теряют реальные полномочия]
+    (* <- lang_ru;; *);;

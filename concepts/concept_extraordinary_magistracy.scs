@@ -1,0 +1,12 @@
+concept_extraordinary_magistracy
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [экстраординарная магистратура]
+    (* <- lang_ru;; *);
+<= nrel_inclusion:
+    concept_roman_magistracy;
+=> nrel_note:
+    [Магистратура, учреждаемая в чрезвычайных обстоятельствах и вне обычного порядка выборов. К
+     экстраординарным относятся диктатура, начальник конницы, интеррекс и децемвират]
+    (* <- lang_ru;; *);;

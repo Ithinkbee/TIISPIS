@@ -1,0 +1,78 @@
+roman_kingdom
+<- concept_roman_kingdom_period;
+=> nrel_main_idtf: [Римское царство] (* <- lang_ru;; *);
+=> nrel_period_years: interval_753_509_bc;;
+
+roman_republic
+<- concept_roman_republic_period;
+=> nrel_main_idtf: [Римская республика] (* <- lang_ru;; *);
+=> nrel_period_years: interval_509_27_bc;;
+
+roman_empire
+<- concept_roman_empire_period;
+=> nrel_main_idtf: [Римская империя] (* <- lang_ru;; *);
+=> nrel_period_years: interval_27_bc_476_ad;;
+
+principate_period
+<- concept_principate;
+=> nrel_main_idtf: [эпоха принципата] (* <- lang_ru;; *);
+=> nrel_period_years: interval_27_bc_284_ad;;
+
+interval_753_509_bc <- concept_time_interval;
+=> nrel_main_idtf: [753-509 годы до н. э.] (* <- lang_ru;; *);;
+interval_509_27_bc <- concept_time_interval;
+=> nrel_main_idtf: [509-27 годы до н. э.] (* <- lang_ru;; *);;
+interval_27_bc_476_ad <- concept_time_interval;
+=> nrel_main_idtf: [27 год до н. э. - 476 год н. э.] (* <- lang_ru;; *);;
+interval_27_bc_284_ad <- concept_time_interval;
+=> nrel_main_idtf: [27 год до н. э. - 284 год н. э.] (* <- lang_ru;; *);;
+interval_753_716_bc <- concept_time_interval;
+=> nrel_main_idtf: [753-716 годы до н. э.] (* <- lang_ru;; *);;
+interval_715_672_bc <- concept_time_interval;
+=> nrel_main_idtf: [715-672 годы до н. э.] (* <- lang_ru;; *);;
+interval_616_578_bc <- concept_time_interval;
+=> nrel_main_idtf: [616-578 годы до н. э.] (* <- lang_ru;; *);;
+interval_578_534_bc <- concept_time_interval;
+=> nrel_main_idtf: [578-534 годы до н. э.] (* <- lang_ru;; *);;
+interval_534_509_bc <- concept_time_interval;
+=> nrel_main_idtf: [534-509 годы до н. э.] (* <- lang_ru;; *);;
+interval_27_bc_14_ad <- concept_time_interval;
+=> nrel_main_idtf: [27 год до н. э. - 14 год н. э.] (* <- lang_ru;; *);;
+interval_14_37_ad <- concept_time_interval;
+=> nrel_main_idtf: [14-37 годы н. э.] (* <- lang_ru;; *);;
+interval_37_41_ad <- concept_time_interval;
+=> nrel_main_idtf: [37-41 годы н. э.] (* <- lang_ru;; *);;
+interval_41_54_ad <- concept_time_interval;
+=> nrel_main_idtf: [41-54 годы н. э.] (* <- lang_ru;; *);;
+interval_54_68_ad <- concept_time_interval;
+=> nrel_main_idtf: [54-68 годы н. э.] (* <- lang_ru;; *);;
+interval_73_71_bc <- concept_time_interval;
+=> nrel_main_idtf: [73-71 годы до н. э.] (* <- lang_ru;; *);;
+interval_one_year <- concept_time_interval;
+=> nrel_main_idtf: [один год] (* <- lang_ru;; *);;
+interval_eighteen_months <- concept_time_interval;
+=> nrel_main_idtf: [восемнадцать месяцев] (* <- lang_ru;; *);;
+interval_six_months <- concept_time_interval;
+=> nrel_main_idtf: [шесть месяцев] (* <- lang_ru;; *);;
+
+/* ЛР2: примечания */
+
+principate_period
+=> nrel_note:
+    [Ранний этап Римской империи, при котором император формально считался первым среди сенаторов. Традиционно датируется 27 годом до н. э. - 284 годом н. э]
+    (* <- lang_ru;; *);;
+
+roman_empire
+=> nrel_note:
+    [Римское государство под властью императора. Отсчитывается от 27 года до н. э., когда Октавиан получил от сената имя Август]
+    (* <- lang_ru;; *);;
+
+roman_kingdom
+=> nrel_note:
+    [Древнейший период римской истории, когда Римом, по преданию, правили семь царей. Завершился изгнанием Тарквиния Гордого в 509 году до н. э]
+    (* <- lang_ru;; *);;
+
+roman_republic
+=> nrel_note:
+    [Государственный строй Рима, при котором власть принадлежала выборным магистратам, сенату и народным собраниям. Просуществовал с 509 по 27 год до н. э]
+    (* <- lang_ru;; *);;

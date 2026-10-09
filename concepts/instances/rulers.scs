@@ -1,0 +1,171 @@
+romulus
+<- concept_roman_king;
+<- concept_legendary_person;
+=> nrel_main_idtf: [Ромул] (* <- lang_ru;; *);
+=> nrel_reign_years: interval_753_716_bc;
+=> nrel_period_membership: roman_kingdom;
+=> nrel_origin: latins;
+=> nrel_deification: quirinus;
+=> nrel_note:
+    [Легендарный основатель Рима и первый римский царь. Историчность не подтверждена источниками.
+    По преданию, после смерти был обожествлён под именем Квирина]
+    (* <- lang_ru;; *);;
+
+numa_pompilius
+<- concept_roman_king;
+<- concept_legendary_person;
+=> nrel_main_idtf: [Нума Помпилий] (* <- lang_ru;; *);
+=> nrel_reign_years: interval_715_672_bc;
+=> nrel_period_membership: roman_kingdom;
+=> nrel_origin: sabines;
+=> nrel_ruler_predecessor: romulus;
+=> nrel_note: [Второй римский царь, которому традиция приписывает учреждение жреческих коллегий и календаря] (* <- lang_ru;; *);;
+
+tarquinius_priscus
+<- concept_roman_king;
+=> nrel_main_idtf: [Луций Тарквиний Приск] (* <- lang_ru;; *);
+=> nrel_reign_years: interval_616_578_bc;
+=> nrel_period_membership: roman_kingdom;
+=> nrel_origin: etruscans;
+=> nrel_note: [Пятый римский царь, первый из царей этрусского происхождения] (* <- lang_ru;; *);;
+
+servius_tullius
+<- concept_roman_king;
+=> nrel_main_idtf: [Сервий Туллий] (* <- lang_ru;; *);
+=> nrel_reign_years: interval_578_534_bc;
+=> nrel_period_membership: roman_kingdom;
+=> nrel_ruler_predecessor: tarquinius_priscus;
+=> nrel_note:
+    [Шестой римский царь. Традиция приписывает ему центуриатную реформу, разделившую граждан
+    на имущественные разряды и определившую устройство центуриатных комиций]
+    (* <- lang_ru;; *);;
+
+tarquinius_superbus
+<- concept_roman_king;
+=> nrel_main_idtf: [Луций Тарквиний Гордый] (* <- lang_ru;; *);
+=> nrel_reign_years: interval_534_509_bc;
+=> nrel_period_membership: roman_kingdom;
+=> nrel_origin: etruscans;
+=> nrel_ruler_predecessor: servius_tullius;
+=> nrel_note: [Седьмой и последний римский царь. Его изгнание в 509 году до н. э. положило конец царскому периоду] (* <- lang_ru;; *);;
+
+augustus
+<- concept_roman_emperor;
+=> nrel_main_idtf: [Октавиан Август] (* <- lang_ru;; *);
+=> nrel_reign_years: interval_27_bc_14_ad;
+=> nrel_period_membership: roman_empire;
+=> nrel_dynasty_membership: julio_claudian_dynasty;
+=> nrel_ordinal_in_dynasty: number_1;
+=> nrel_deification: divus_augustus;
+=> nrel_note: [Первый римский император, основатель принципата. Династия Юлиев-Клавдиев отсчитывается с 16 января 27 года до н. э] (* <- lang_ru;; *);;
+
+tiberius
+<- concept_roman_emperor;
+=> nrel_main_idtf: [Тиберий] (* <- lang_ru;; *);
+=> nrel_reign_years: interval_14_37_ad;
+=> nrel_period_membership: roman_empire;
+=> nrel_dynasty_membership: julio_claudian_dynasty;
+=> nrel_ordinal_in_dynasty: number_2;
+=> nrel_ruler_predecessor: augustus;;
+
+caligula
+<- concept_roman_emperor;
+=> nrel_main_idtf: [Калигула] (* <- lang_ru;; *);
+=> nrel_idtf: [Гай Юлий Цезарь Август Германик] (* <- lang_ru;; *);
+=> nrel_reign_years: interval_37_41_ad;
+=> nrel_period_membership: roman_empire;
+=> nrel_dynasty_membership: julio_claudian_dynasty;
+=> nrel_ordinal_in_dynasty: number_3;
+=> nrel_ruler_predecessor: tiberius;
+=> nrel_note: [Третий император династии Юлиев-Клавдиев. После смерти обожествлён не был] (* <- lang_ru;; *);;
+
+claudius
+<- concept_roman_emperor;
+=> nrel_main_idtf: [Клавдий] (* <- lang_ru;; *);
+=> nrel_reign_years: interval_41_54_ad;
+=> nrel_period_membership: roman_empire;
+=> nrel_dynasty_membership: julio_claudian_dynasty;
+=> nrel_ordinal_in_dynasty: number_4;
+=> nrel_ruler_predecessor: caligula;
+=> nrel_deification: divus_claudius;;
+
+nero
+<- concept_roman_emperor;
+=> nrel_main_idtf: [Нерон] (* <- lang_ru;; *);
+=> nrel_idtf: [Нерон Клавдий Цезарь Август Германик] (* <- lang_ru;; *);
+=> nrel_reign_years: interval_54_68_ad;
+=> nrel_period_membership: roman_empire;
+=> nrel_dynasty_membership: julio_claudian_dynasty;
+=> nrel_ordinal_in_dynasty: number_5;
+=> nrel_ruler_predecessor: claudius;
+=> nrel_note: [Пятый и последний император династии Юлиев-Клавдиев. Династия пресеклась с его смертью 9 июня 68 года] (* <- lang_ru;; *);;
+
+julio_claudian_dynasty
+<- concept_roman_dynasty;
+=> nrel_main_idtf: [династия Юлиев-Клавдиев] (* <- lang_ru;; *);
+=> nrel_note: [Первая династия римских императоров, правившая с 27 года до н. э. по 68 год н. э] (* <- lang_ru;; *);;
+
+divus_augustus <- concept_roman_deity;
+=> nrel_main_idtf: [Божественный Август] (* <- lang_ru;; *);;
+divus_claudius <- concept_roman_deity;
+=> nrel_main_idtf: [Божественный Клавдий] (* <- lang_ru;; *);;
+
+gaius_julius_caesar
+<- concept_roman_magistrate;
+<- concept_roman_military_commander;
+=> nrel_main_idtf: [Гай Юлий Цезарь] (* <- lang_ru;; *);
+=> nrel_period_membership: roman_republic;
+=> nrel_social_stratum_membership: patricians;
+=> nrel_magistracy_holding: consulate;
+=> nrel_magistracy_holding: dictatorship;
+=> nrel_note: [Римский государственный деятель и полководец, консул 59 года до н. э., впоследствии пожизненный диктатор] (* <- lang_ru;; *);;
+
+marcus_licinius_crassus
+<- concept_roman_magistrate;
+<- concept_roman_military_commander;
+=> nrel_main_idtf: [Марк Лициний Красс] (* <- lang_ru;; *);
+=> nrel_period_membership: roman_republic;
+=> nrel_magistracy_holding: consulate;
+=> nrel_note: [Римский полководец и богатейший человек Рима, подавивший восстание Спартака. Консул 70 и 55 годов до н. э] (* <- lang_ru;; *);;
+
+spartacus
+<- concept_gladiator;
+=> nrel_main_idtf: [Спартак] (* <- lang_ru;; *);
+=> nrel_period_membership: roman_republic;
+=> nrel_origin: thracians;
+=> nrel_social_stratum_membership: slaves;
+=> nrel_defeated_by: marcus_licinius_crassus;
+=> nrel_note:
+    [Фракиец, родившийся около 103 года до н. э. в окрестностях реки Стримон. Раб и гладиатор-мурмиллон
+    школы Лентула Батиата в Капуе. В 73 году до н. э. вместе примерно с семьюдесятью гладиаторами бежал
+    из школы и возглавил Третью Сервильную войну. Погиб в 71 году до н. э]
+    (* <- lang_ru;; *);;
+
+third_servile_war
+<- concept_roman_armed_conflict;
+=> nrel_main_idtf: [Третья Сервильная война] (* <- lang_ru;; *);
+=> nrel_conflict_years: interval_73_71_bc;
+=> nrel_conflict_leader: spartacus;
+=> nrel_note: [Крупнейшее восстание рабов против Римской республики, продолжавшееся с 73 по 71 год до н. э] (* <- lang_ru;; *);;
+
+/* ЛР2: примечания */
+
+claudius
+=> nrel_note:
+    [Четвёртый император династии Юлиев-Клавдиев, правивший в 41-54 годах н. э. После смерти был обожествлён]
+    (* <- lang_ru;; *);;
+
+divus_augustus
+=> nrel_note:
+    [Август, обожествлённый решением сената после смерти в 14 году н. э]
+    (* <- lang_ru;; *);;
+
+divus_claudius
+=> nrel_note:
+    [Клавдий, обожествлённый после смерти в 54 году н. э]
+    (* <- lang_ru;; *);;
+
+tiberius
+=> nrel_note:
+    [Второй император династии Юлиев-Клавдиев, правивший в 14-37 годах н. э. Пасынок и приёмный сын Августа]
+    (* <- lang_ru;; *);;

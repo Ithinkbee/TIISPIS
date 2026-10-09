@@ -1,0 +1,18 @@
+rrel_term_start_year
+<- sc_node_role_relation;
+<- relation;
+<- role_relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+    [год начала полномочий']
+    (* <- lang_ru;; *);
+=> nrel_idtf:
+    [год начала полномочий]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [Роль года, с которого лицо приступило к исполнению должности, в связке нахождения в должности]
+    (* <- lang_ru;; *);;

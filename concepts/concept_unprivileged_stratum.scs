@@ -1,0 +1,12 @@
+concept_unprivileged_stratum
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [непривилегированный социальный слой]
+    (* <- lang_ru;; *);
+<= nrel_inclusion:
+    concept_roman_social_stratum;
+=> nrel_note:
+    [Слой, ограниченный в правах или полностью их лишённый: плебеи раннего периода, вольноотпущенники,
+     перегрины, рабы]
+    (* <- lang_ru;; *);;

@@ -1,0 +1,47 @@
+nrel_granted_right
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+    [предоставляемое право*]
+    (* <- lang_ru;; *);
+=> nrel_idtf:
+    [предоставляемое право]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [бинарное ориентированное отношение, связывающее статус гражданства с правом, которое этот статус даёт своему обладателю]
+    (* <- lang_ru;; *);
+=> nrel_first_domain: concept_citizenship_status;
+=> nrel_second_domain: concept_right_of_roman_citizen;
+=> nrel_definitional_domain:
+    ...
+    (*
+        <= nrel_combination: {
+            concept_citizenship_status;
+            concept_right_of_roman_citizen
+        };;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+    => nrel_main_idtf:
+        [Опр. (предоставляемое право*)]
+        (* <- lang_ru;; *);;
+    <- definition;;
+        <= nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Предоставляемое право* - бинарное ориентированное отношение, связывающее статус гражданства с
+             правом, которое этот статус даёт своему обладателю.]
+            (* <- lang_ru;; *);;
+        *);;
+        <= nrel_using_constants: {
+            concept_citizenship_status;
+            concept_right_of_roman_citizen
+        };;
+    *);;

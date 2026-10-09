@@ -1,0 +1,12 @@
+concept_roman_kingdom_period
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [период Римского царства]
+    (* <- lang_ru;; *);
+<= nrel_inclusion:
+    concept_historical_period_of_ancient_rome;
+=> nrel_note:
+    [Древнейший период римской истории, традиционно датируемый 753-509 годами до н. э. За это время, по
+     преданию, Римом правили семь царей. Завершился изгнанием Тарквиния Гордого]
+    (* <- lang_ru;; *);;

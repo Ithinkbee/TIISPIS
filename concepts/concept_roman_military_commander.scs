@@ -1,0 +1,12 @@
+concept_roman_military_commander
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [римский военачальник]
+    (* <- lang_ru;; *);
+<= nrel_inclusion:
+    concept_ancient_roman_person;
+=> nrel_note:
+    [Лицо, осуществлявшее командование римскими войсками. В республиканский период командование обычно
+     принадлежало магистрату, обладавшему империем]
+    (* <- lang_ru;; *);;

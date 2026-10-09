@@ -1,0 +1,12 @@
+concept_roman_auxiliary_troops
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [вспомогательные войска]
+    (* <- lang_ru;; *);
+<= nrel_inclusion:
+    concept_roman_military_unit;
+=> nrel_note:
+    [Части, набиравшиеся из неграждан империи. В имперский период по численности сравнялись с легионами и
+     составляли основную часть римской конницы]
+    (* <- lang_ru;; *);;

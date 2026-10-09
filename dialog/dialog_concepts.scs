@@ -1,0 +1,465 @@
+/* Файл создан gen_dialog.py. Классы сообщений, добавленные в ЛР 3,
+   и идентификаторы правил ответа и классов фраз. */
+
+concept_message_about_reign_years
+<- sc_node_class;
+=> nrel_main_idtf:
+    [сообщение о годах правления]
+    (* <- lang_ru;; *);
+<= nrel_inclusion: concept_atomic_message;
+<- rrel_key_sc_element:
+    ...
+    (*
+    => nrel_main_idtf:
+        [Опр. (сообщение о годах правления)]
+        (* <- lang_ru;; *);;
+    <- definition;;
+    <= nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Сообщение о годах правления - атомарное сообщение, в котором спрашивается, когда правил указанный правитель Древнего Рима.]
+            (* <- lang_ru;; *);;
+        *);;
+    <= nrel_using_constants: {
+        concept_atomic_message;
+        rrel_entity
+    };;
+    *);;
+
+concept_message_about_period
+<- sc_node_class;
+=> nrel_main_idtf:
+    [сообщение о периоде истории]
+    (* <- lang_ru;; *);
+<= nrel_inclusion: concept_atomic_message;
+<- rrel_key_sc_element:
+    ...
+    (*
+    => nrel_main_idtf:
+        [Опр. (сообщение о периоде истории)]
+        (* <- lang_ru;; *);;
+    <- definition;;
+    <= nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Сообщение о периоде истории - атомарное сообщение, в котором спрашивается, к какому периоду истории Древнего Рима относится указанное лицо или должность.]
+            (* <- lang_ru;; *);;
+        *);;
+    <= nrel_using_constants: {
+        concept_atomic_message;
+        rrel_entity
+    };;
+    *);;
+
+concept_message_about_minimum_age
+<- sc_node_class;
+=> nrel_main_idtf:
+    [сообщение о минимальном возрасте для должности]
+    (* <- lang_ru;; *);
+<= nrel_inclusion: concept_atomic_message;
+<- rrel_key_sc_element:
+    ...
+    (*
+    => nrel_main_idtf:
+        [Опр. (сообщение о минимальном возрасте для должности)]
+        (* <- lang_ru;; *);;
+    <- definition;;
+    <= nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Сообщение о минимальном возрасте для должности - атомарное сообщение, в котором спрашивается, с какого возраста можно было занять указанную римскую должность.]
+            (* <- lang_ru;; *);;
+        *);;
+    <= nrel_using_constants: {
+        concept_atomic_message;
+        rrel_entity
+    };;
+    *);;
+
+concept_ancient_rome_dialog_entity
+<- sc_node_class;
+=> nrel_main_idtf:
+    [сущность предметной области «Древний Рим», о которой можно спросить «Что такое …?»]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [Сущности предметной области «Древний Рим», для которых есть правила классификации вопросов «Что такое …?» и «Кто такой …?», кроме правителей: о правителе Ника отвечает по отдельному правилу, добавляя годы правления]
+    (* <- lang_ru;; *);
+-> ala_cavalry;
+-> aquilifer;
+-> auxilia;
+-> censorship;
+-> centuria_military;
+-> centuriate_assembly;
+-> centurio;
+-> cives_romani;
+-> cohors;
+-> cohors_prima;
+-> concept_ancient_roman_person;
+-> concept_citizenship_status;
+-> concept_curule_magistracy;
+-> concept_ethnic_group;
+-> concept_extraordinary_magistracy;
+-> concept_gladiator;
+-> concept_historical_period_of_ancient_rome;
+-> concept_legendary_person;
+-> concept_magistracy_with_imperium;
+-> concept_number;
+-> concept_office_holding_fact;
+-> concept_ordinary_magistracy;
+-> concept_plebeian_magistracy;
+-> concept_principate;
+-> concept_privileged_stratum;
+-> concept_property_qualification;
+-> concept_right_of_roman_citizen;
+-> concept_roman_armed_conflict;
+-> concept_roman_auxiliary_troops;
+-> concept_roman_cavalry_unit;
+-> concept_roman_deity;
+-> concept_roman_dynasty;
+-> concept_roman_emperor;
+-> concept_roman_empire_period;
+-> concept_roman_guard_unit;
+-> concept_roman_infantry_unit;
+-> concept_roman_king;
+-> concept_roman_kingdom_period;
+-> concept_roman_law;
+-> concept_roman_legion;
+-> concept_roman_magistracy;
+-> concept_roman_magistrate;
+-> concept_roman_military_commander;
+-> concept_roman_military_office;
+-> concept_roman_military_unit;
+-> concept_roman_popular_assembly;
+-> concept_roman_priesthood;
+-> concept_roman_public_office;
+-> concept_roman_republic_period;
+-> concept_roman_ruler;
+-> concept_roman_social_stratum;
+-> concept_roman_state_body;
+-> concept_time_interval;
+-> concept_type_of_roman_power;
+-> concept_unprivileged_stratum;
+-> concept_year;
+-> constitutio_antoniniana;
+-> consulate;
+-> contubernium;
+-> curiate_assembly;
+-> curule_aedileship;
+-> decurio;
+-> dictatorship;
+-> divus_augustus;
+-> divus_claudius;
+-> equestrian_order;
+-> equestrian_qualification;
+-> etruscans;
+-> flamen_quirinalis;
+-> freedmen;
+-> gaius_julius_caesar;
+-> imperium;
+-> interrex;
+-> ius_commercii;
+-> ius_connubii;
+-> ius_honorum;
+-> ius_provocationis;
+-> ius_suffragii;
+-> julio_claudian_dynasty;
+-> jupiter;
+-> latini;
+-> latins;
+-> legatus_legionis;
+-> legio;
+-> lex_villia_annalis;
+-> magister_equitum;
+-> manipulus;
+-> marcus_licinius_crassus;
+-> mars;
+-> nrel_abolition_year;
+-> nrel_conflict_leader;
+-> nrel_conflict_years;
+-> nrel_defeated_by;
+-> nrel_deification;
+-> nrel_dynasty_membership;
+-> nrel_established_by;
+-> nrel_establishment_year;
+-> nrel_granted_right;
+-> nrel_greater;
+-> nrel_magistracy_holding;
+-> nrel_next_office_in_cursus_honorum;
+-> nrel_office_collegiality;
+-> nrel_office_existence_period;
+-> nrel_office_minimum_age;
+-> nrel_office_power_type;
+-> nrel_office_term_length;
+-> nrel_ordinal_in_dynasty;
+-> nrel_origin;
+-> nrel_period_membership;
+-> nrel_period_years;
+-> nrel_priesthood_deity;
+-> nrel_property_qualification_value;
+-> nrel_reign_years;
+-> nrel_ruler_predecessor;
+-> nrel_social_stratum_membership;
+-> nrel_stratum_qualification;
+-> nrel_unit_commander_office;
+-> nrel_unit_part;
+-> nrel_unit_strength;
+-> nrel_veto_right_over;
+-> optio;
+-> patricians;
+-> peregrini;
+-> pilus_prior;
+-> plebeian_tribunate;
+-> plebs;
+-> pontifex_maximus;
+-> potestas;
+-> praefectus_castrorum;
+-> praetorian_guard;
+-> praetorship;
+-> primus_pilus;
+-> principate_period;
+-> quaestorship;
+-> quirinus;
+-> roman_empire;
+-> roman_kingdom;
+-> roman_republic;
+-> roman_senate;
+-> rrel_held_office;
+-> rrel_office_holder;
+-> rrel_ordinal_number;
+-> rrel_term_end_year;
+-> rrel_term_start_year;
+-> sabines;
+-> senatorial_order;
+-> senatorial_qualification;
+-> slaves;
+-> socii;
+-> spartacus;
+-> third_servile_war;
+-> thracians;
+-> tribal_assembly;
+-> tribunus_angusticlavius;
+-> tribunus_laticlavius;
+-> turma;;
+
+lr_answer_about_ruler
+=> nrel_main_idtf:
+    [правило ответа о правителе (приоритет 1)]
+    (* <- lang_ru;; *);;
+
+concept_phrase_about_ruler
+<- sc_node_class;
+=> nrel_main_idtf:
+    [фраза о правителе]
+    (* <- lang_ru;; *);;
+
+lr_answer_about_entity
+=> nrel_main_idtf:
+    [правило ответа о сущности предметной области «Древний Рим» (приоритет 1)]
+    (* <- lang_ru;; *);;
+
+concept_phrase_about_rome_entity
+<- sc_node_class;
+=> nrel_main_idtf:
+    [фраза о сущности предметной области «Древний Рим»]
+    (* <- lang_ru;; *);;
+
+lr_answer_ruler_predecessor
+=> nrel_main_idtf:
+    [правило ответа о предшественнике правителя (приоритет 1)]
+    (* <- lang_ru;; *);;
+
+concept_phrase_ruler_predecessor
+<- sc_node_class;
+=> nrel_main_idtf:
+    [фраза о предшественнике правителя]
+    (* <- lang_ru;; *);;
+
+lr_answer_dynasty_founder
+=> nrel_main_idtf:
+    [правило ответа о первом правителе династии (приоритет 2)]
+    (* <- lang_ru;; *);;
+
+concept_phrase_dynasty_founder
+<- sc_node_class;
+=> nrel_main_idtf:
+    [фраза о первом правителе династии]
+    (* <- lang_ru;; *);;
+
+lr_answer_ruler_predecessor_unknown
+=> nrel_main_idtf:
+    [правило ответа о неизвестном предшественнике (приоритет 3)]
+    (* <- lang_ru;; *);;
+
+concept_phrase_ruler_predecessor_unknown
+<- sc_node_class;
+=> nrel_main_idtf:
+    [фраза о неизвестном предшественнике]
+    (* <- lang_ru;; *);;
+
+lr_answer_defeat_in_conflict
+=> nrel_main_idtf:
+    [правило ответа о поражении в вооружённом конфликте (приоритет 1)]
+    (* <- lang_ru;; *);;
+
+concept_phrase_defeat_in_conflict
+<- sc_node_class;
+=> nrel_main_idtf:
+    [фраза о поражении в вооружённом конфликте]
+    (* <- lang_ru;; *);;
+
+lr_answer_defeat
+=> nrel_main_idtf:
+    [правило ответа о поражении (приоритет 2)]
+    (* <- lang_ru;; *);;
+
+concept_phrase_defeat
+<- sc_node_class;
+=> nrel_main_idtf:
+    [фраза о поражении]
+    (* <- lang_ru;; *);;
+
+lr_answer_defeat_unknown
+=> nrel_main_idtf:
+    [правило ответа об отсутствии сведений о поражении (приоритет 3)]
+    (* <- lang_ru;; *);;
+
+concept_phrase_defeat_unknown
+<- sc_node_class;
+=> nrel_main_idtf:
+    [фраза об отсутствии сведений о поражении]
+    (* <- lang_ru;; *);;
+
+lr_answer_unit_strength_and_subunit
+=> nrel_main_idtf:
+    [правило ответа о численности и составе подразделения (приоритет 1)]
+    (* <- lang_ru;; *);;
+
+concept_phrase_unit_strength_and_subunit
+<- sc_node_class;
+=> nrel_main_idtf:
+    [фраза о численности и составе подразделения]
+    (* <- lang_ru;; *);;
+
+lr_answer_unit_strength
+=> nrel_main_idtf:
+    [правило ответа о численности подразделения (приоритет 2)]
+    (* <- lang_ru;; *);;
+
+concept_phrase_unit_strength
+<- sc_node_class;
+=> nrel_main_idtf:
+    [фраза о численности подразделения]
+    (* <- lang_ru;; *);;
+
+lr_answer_unit_strength_unknown
+=> nrel_main_idtf:
+    [правило ответа о неизвестной численности подразделения (приоритет 3)]
+    (* <- lang_ru;; *);;
+
+concept_phrase_unit_strength_unknown
+<- sc_node_class;
+=> nrel_main_idtf:
+    [фраза о неизвестной численности подразделения]
+    (* <- lang_ru;; *);;
+
+lr_answer_reign_and_successor
+=> nrel_main_idtf:
+    [правило ответа о годах правления и преемнике правителя (приоритет 1)]
+    (* <- lang_ru;; *);;
+
+concept_phrase_reign_and_successor
+<- sc_node_class;
+=> nrel_main_idtf:
+    [фраза о годах правления и преемнике правителя]
+    (* <- lang_ru;; *);;
+
+lr_answer_reign
+=> nrel_main_idtf:
+    [правило ответа о годах правления (приоритет 2)]
+    (* <- lang_ru;; *);;
+
+concept_phrase_reign
+<- sc_node_class;
+=> nrel_main_idtf:
+    [фраза о годах правления]
+    (* <- lang_ru;; *);;
+
+lr_answer_reign_unknown
+=> nrel_main_idtf:
+    [правило ответа о неизвестных годах правления (приоритет 3)]
+    (* <- lang_ru;; *);;
+
+concept_phrase_reign_unknown
+<- sc_node_class;
+=> nrel_main_idtf:
+    [фраза о неизвестных годах правления]
+    (* <- lang_ru;; *);;
+
+lr_answer_person_period
+=> nrel_main_idtf:
+    [правило ответа о периоде, к которому относится лицо (приоритет 1)]
+    (* <- lang_ru;; *);;
+
+concept_phrase_person_period
+<- sc_node_class;
+=> nrel_main_idtf:
+    [фраза о периоде, к которому относится лицо]
+    (* <- lang_ru;; *);;
+
+lr_answer_office_period
+=> nrel_main_idtf:
+    [правило ответа о периоде существования должности (приоритет 1)]
+    (* <- lang_ru;; *);;
+
+concept_phrase_office_period
+<- sc_node_class;
+=> nrel_main_idtf:
+    [фраза о периоде существования должности]
+    (* <- lang_ru;; *);;
+
+lr_answer_period_unknown
+=> nrel_main_idtf:
+    [правило ответа о неизвестном периоде (приоритет 3)]
+    (* <- lang_ru;; *);;
+
+concept_phrase_period_unknown
+<- sc_node_class;
+=> nrel_main_idtf:
+    [фраза о неизвестном периоде]
+    (* <- lang_ru;; *);;
+
+lr_answer_minimum_age_in_cursus
+=> nrel_main_idtf:
+    [правило ответа о минимальном возрасте и предыдущей ступени cursus honorum (приоритет 1)]
+    (* <- lang_ru;; *);;
+
+concept_phrase_minimum_age_in_cursus
+<- sc_node_class;
+=> nrel_main_idtf:
+    [фраза о минимальном возрасте и предыдущей ступени cursus honorum]
+    (* <- lang_ru;; *);;
+
+lr_answer_minimum_age
+=> nrel_main_idtf:
+    [правило ответа о минимальном возрасте для должности (приоритет 2)]
+    (* <- lang_ru;; *);;
+
+concept_phrase_minimum_age
+<- sc_node_class;
+=> nrel_main_idtf:
+    [фраза о минимальном возрасте для должности]
+    (* <- lang_ru;; *);;
+
+lr_answer_minimum_age_unknown
+=> nrel_main_idtf:
+    [правило ответа о неизвестном минимальном возрасте (приоритет 3)]
+    (* <- lang_ru;; *);;
+
+concept_phrase_minimum_age_unknown
+<- sc_node_class;
+=> nrel_main_idtf:
+    [фраза о неизвестном минимальном возрасте]
+    (* <- lang_ru;; *);;

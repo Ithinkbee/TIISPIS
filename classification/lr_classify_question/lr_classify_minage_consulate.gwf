@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/const/perm/general" idtf="lr_classify_minage_consulate_message" shapeColor="0" id="41000016" parent="0" left="0" top="0" right="288" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="120.0" y="40.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="concept_classify_message_rule_priority_1" shapeColor="0" id="41000032" parent="0" left="0" top="0" right="320" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="120.0" y="-20.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/const/pos/perm/orient/membership" idtf="" shapeColor="0" id="41000048" parent="0" id_b="41000032" id_e="41000016" b_x="120.0" b_y="-20.0" e_x="120.0" e_y="40.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <node type="node/const/perm/tuple" idtf="" shapeColor="0" id="41000064" parent="0" left="0" top="0" right="20" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="420.0" y="120.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_disjunction" shapeColor="0" id="41000080" parent="0" left="0" top="0" right="128" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="420.0" y="60.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/const/pos/perm/orient/membership" idtf="" shapeColor="0" id="41000096" parent="0" id_b="41000080" id_e="41000064" b_x="420.0" b_y="60.0" e_x="420.0" e_y="120.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <node type="node/const/perm/group" idtf="atomic_logical_formula" shapeColor="0" id="41000112" parent="0" left="0" top="0" right="176" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="760.0" y="40.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="concept_template_with_links" shapeColor="0" id="41000128" parent="0" left="0" top="0" right="216" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="760.0" y="100.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="41000160" parent="41000144" left="0" top="0" right="20" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="310.0" y="260.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="_message" shapeColor="0" id="41000176" parent="41000144" left="0" top="0" right="64" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="80.0" y="260.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="concept_message" shapeColor="0" id="41000192" parent="41000144" left="0" top="0" right="120" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="80.0" y="350.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_sc_text_translation" shapeColor="0" id="41000208" parent="41000144" left="0" top="0" right="192" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="310.0" y="350.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="_q_minage_consulate_1" shapeColor="0" id="41000224" parent="41000144" left="0" top="0" right="168" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="540.0" y="260.0" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[С какого возраста можно было занять консулат?]]></content>
+        </node>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="41000240" parent="41000144" id_b="41000192" id_e="41000176" b_x="80.0" b_y="350.0" e_x="80.0" e_y="260.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="41000256" parent="41000144" id_b="41000160" id_e="41000176" b_x="310.0" b_y="260.0" e_x="80.0" e_y="260.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="41000272" parent="41000144" id_b="41000208" id_e="41000256" b_x="310.0" b_y="350.0" e_x="195.0" e_y="260.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="41000288" parent="41000144" id_b="41000160" id_e="41000224" b_x="310.0" b_y="260.0" e_x="540.0" e_y="260.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/pos/perm/orient/membership" idtf="" shapeColor="0" id="41000304" parent="0" id_b="41000064" id_e="41000144" b_x="420.0" b_y="120.0" e_x="370.0" e_y="305.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/pos/perm/orient/membership" idtf="" shapeColor="0" id="41000320" parent="0" id_b="41000112" id_e="41000144" b_x="760.0" b_y="40.0" e_x="370.0" e_y="305.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/pos/perm/orient/membership" idtf="" shapeColor="0" id="41000336" parent="0" id_b="41000128" id_e="41000144" b_x="760.0" b_y="100.0" e_x="370.0" e_y="305.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="41000368" parent="41000352" left="0" top="0" right="20" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="1030.0" y="260.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="_message" shapeColor="0" id="41000384" parent="41000352" left="0" top="0" right="64" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="800.0" y="260.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="concept_message" shapeColor="0" id="41000400" parent="41000352" left="0" top="0" right="120" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="800.0" y="350.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_sc_text_translation" shapeColor="0" id="41000416" parent="41000352" left="0" top="0" right="192" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="1030.0" y="350.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="_q_minage_consulate_2" shapeColor="0" id="41000432" parent="41000352" left="0" top="0" right="168" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="1260.0" y="260.0" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[с какого возраста можно было занять консулат?]]></content>
+        </node>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="41000448" parent="41000352" id_b="41000400" id_e="41000384" b_x="800.0" b_y="350.0" e_x="800.0" e_y="260.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="41000464" parent="41000352" id_b="41000368" id_e="41000384" b_x="1030.0" b_y="260.0" e_x="800.0" e_y="260.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="41000480" parent="41000352" id_b="41000416" id_e="41000464" b_x="1030.0" b_y="350.0" e_x="915.0" e_y="260.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="41000496" parent="41000352" id_b="41000368" id_e="41000432" b_x="1030.0" b_y="260.0" e_x="1260.0" e_y="260.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/pos/perm/orient/membership" idtf="" shapeColor="0" id="41000512" parent="0" id_b="41000064" id_e="41000352" b_x="420.0" b_y="120.0" e_x="1090.0" e_y="305.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/pos/perm/orient/membership" idtf="" shapeColor="0" id="41000528" parent="0" id_b="41000112" id_e="41000352" b_x="760.0" b_y="40.0" e_x="1090.0" e_y="305.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/pos/perm/orient/membership" idtf="" shapeColor="0" id="41000544" parent="0" id_b="41000128" id_e="41000352" b_x="760.0" b_y="100.0" e_x="1090.0" e_y="305.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="41000576" parent="41000560" left="0" top="0" right="20" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="310.0" y="520.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="_message" shapeColor="0" id="41000592" parent="41000560" left="0" top="0" right="64" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="80.0" y="520.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="concept_message" shapeColor="0" id="41000608" parent="41000560" left="0" top="0" right="120" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="80.0" y="610.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_sc_text_translation" shapeColor="0" id="41000624" parent="41000560" left="0" top="0" right="192" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="310.0" y="610.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="_q_minage_consulate_3" shapeColor="0" id="41000640" parent="41000560" left="0" top="0" right="168" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="540.0" y="520.0" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[С какого возраста можно было занять консулат]]></content>
+        </node>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="41000656" parent="41000560" id_b="41000608" id_e="41000592" b_x="80.0" b_y="610.0" e_x="80.0" e_y="520.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="41000672" parent="41000560" id_b="41000576" id_e="41000592" b_x="310.0" b_y="520.0" e_x="80.0" e_y="520.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="41000688" parent="41000560" id_b="41000624" id_e="41000672" b_x="310.0" b_y="610.0" e_x="195.0" e_y="520.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="41000704" parent="41000560" id_b="41000576" id_e="41000640" b_x="310.0" b_y="520.0" e_x="540.0" e_y="520.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/pos/perm/orient/membership" idtf="" shapeColor="0" id="41000720" parent="0" id_b="41000064" id_e="41000560" b_x="420.0" b_y="120.0" e_x="370.0" e_y="565.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/pos/perm/orient/membership" idtf="" shapeColor="0" id="41000736" parent="0" id_b="41000112" id_e="41000560" b_x="760.0" b_y="40.0" e_x="370.0" e_y="565.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/pos/perm/orient/membership" idtf="" shapeColor="0" id="41000752" parent="0" id_b="41000128" id_e="41000560" b_x="760.0" b_y="100.0" e_x="370.0" e_y="565.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="41000784" parent="41000768" left="0" top="0" right="20" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="1030.0" y="520.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="_message" shapeColor="0" id="41000800" parent="41000768" left="0" top="0" right="64" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="800.0" y="520.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="concept_message" shapeColor="0" id="41000816" parent="41000768" left="0" top="0" right="120" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="800.0" y="610.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_sc_text_translation" shapeColor="0" id="41000832" parent="41000768" left="0" top="0" right="192" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="1030.0" y="610.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="_q_minage_consulate_4" shapeColor="0" id="41000848" parent="41000768" left="0" top="0" right="168" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="1260.0" y="520.0" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[с какого возраста можно было занять консулат]]></content>
+        </node>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="41000864" parent="41000768" id_b="41000816" id_e="41000800" b_x="800.0" b_y="610.0" e_x="800.0" e_y="520.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="41000880" parent="41000768" id_b="41000784" id_e="41000800" b_x="1030.0" b_y="520.0" e_x="800.0" e_y="520.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="41000896" parent="41000768" id_b="41000832" id_e="41000880" b_x="1030.0" b_y="610.0" e_x="915.0" e_y="520.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="41000912" parent="41000768" id_b="41000784" id_e="41000848" b_x="1030.0" b_y="520.0" e_x="1260.0" e_y="520.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/pos/perm/orient/membership" idtf="" shapeColor="0" id="41000928" parent="0" id_b="41000064" id_e="41000768" b_x="420.0" b_y="120.0" e_x="1090.0" e_y="565.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/pos/perm/orient/membership" idtf="" shapeColor="0" id="41000944" parent="0" id_b="41000112" id_e="41000768" b_x="760.0" b_y="40.0" e_x="1090.0" e_y="565.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/pos/perm/orient/membership" idtf="" shapeColor="0" id="41000960" parent="0" id_b="41000128" id_e="41000768" b_x="760.0" b_y="100.0" e_x="1090.0" e_y="565.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="41000992" parent="41000976" left="0" top="0" right="20" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="310.0" y="780.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="_message" shapeColor="0" id="41001008" parent="41000976" left="0" top="0" right="64" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="80.0" y="780.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="concept_message" shapeColor="0" id="41001024" parent="41000976" left="0" top="0" right="120" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="80.0" y="870.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_sc_text_translation" shapeColor="0" id="41001040" parent="41000976" left="0" top="0" right="192" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="310.0" y="870.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="_q_minage_consulate_5" shapeColor="0" id="41001056" parent="41000976" left="0" top="0" right="168" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="540.0" y="780.0" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Какой минимальный возраст для консулата?]]></content>
+        </node>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="41001072" parent="41000976" id_b="41001024" id_e="41001008" b_x="80.0" b_y="870.0" e_x="80.0" e_y="780.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="41001088" parent="41000976" id_b="41000992" id_e="41001008" b_x="310.0" b_y="780.0" e_x="80.0" e_y="780.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="41001104" parent="41000976" id_b="41001040" id_e="41001088" b_x="310.0" b_y="870.0" e_x="195.0" e_y="780.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="41001120" parent="41000976" id_b="41000992" id_e="41001056" b_x="310.0" b_y="780.0" e_x="540.0" e_y="780.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/pos/perm/orient/membership" idtf="" shapeColor="0" id="41001136" parent="0" id_b="41000064" id_e="41000976" b_x="420.0" b_y="120.0" e_x="370.0" e_y="825.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/pos/perm/orient/membership" idtf="" shapeColor="0" id="41001152" parent="0" id_b="41000112" id_e="41000976" b_x="760.0" b_y="40.0" e_x="370.0" e_y="825.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/pos/perm/orient/membership" idtf="" shapeColor="0" id="41001168" parent="0" id_b="41000128" id_e="41000976" b_x="760.0" b_y="100.0" e_x="370.0" e_y="825.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="41001200" parent="41001184" left="0" top="0" right="20" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="1030.0" y="780.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="_message" shapeColor="0" id="41001216" parent="41001184" left="0" top="0" right="64" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="800.0" y="780.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="concept_message" shapeColor="0" id="41001232" parent="41001184" left="0" top="0" right="120" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="800.0" y="870.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_sc_text_translation" shapeColor="0" id="41001248" parent="41001184" left="0" top="0" right="192" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="1030.0" y="870.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="_q_minage_consulate_6" shapeColor="0" id="41001264" parent="41001184" left="0" top="0" right="168" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="1260.0" y="780.0" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[какой минимальный возраст для консулата?]]></content>
+        </node>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="41001280" parent="41001184" id_b="41001232" id_e="41001216" b_x="800.0" b_y="870.0" e_x="800.0" e_y="780.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="41001296" parent="41001184" id_b="41001200" id_e="41001216" b_x="1030.0" b_y="780.0" e_x="800.0" e_y="780.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="41001312" parent="41001184" id_b="41001248" id_e="41001296" b_x="1030.0" b_y="870.0" e_x="915.0" e_y="780.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="41001328" parent="41001184" id_b="41001200" id_e="41001264" b_x="1030.0" b_y="780.0" e_x="1260.0" e_y="780.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/pos/perm/orient/membership" idtf="" shapeColor="0" id="41001344" parent="0" id_b="41000064" id_e="41001184" b_x="420.0" b_y="120.0" e_x="1090.0" e_y="825.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/pos/perm/orient/membership" idtf="" shapeColor="0" id="41001360" parent="0" id_b="41000112" id_e="41001184" b_x="760.0" b_y="40.0" e_x="1090.0" e_y="825.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/pos/perm/orient/membership" idtf="" shapeColor="0" id="41001376" parent="0" id_b="41000128" id_e="41001184" b_x="760.0" b_y="100.0" e_x="1090.0" e_y="825.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="41001408" parent="41001392" left="0" top="0" right="20" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="310.0" y="1040.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="_message" shapeColor="0" id="41001424" parent="41001392" left="0" top="0" right="64" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="80.0" y="1040.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="concept_message" shapeColor="0" id="41001440" parent="41001392" left="0" top="0" right="120" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="80.0" y="1130.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_sc_text_translation" shapeColor="0" id="41001456" parent="41001392" left="0" top="0" right="192" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="310.0" y="1130.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="_q_minage_consulate_7" shapeColor="0" id="41001472" parent="41001392" left="0" top="0" right="168" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="540.0" y="1040.0" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Какой минимальный возраст для консулата]]></content>
+        </node>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="41001488" parent="41001392" id_b="41001440" id_e="41001424" b_x="80.0" b_y="1130.0" e_x="80.0" e_y="1040.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="41001504" parent="41001392" id_b="41001408" id_e="41001424" b_x="310.0" b_y="1040.0" e_x="80.0" e_y="1040.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="41001520" parent="41001392" id_b="41001456" id_e="41001504" b_x="310.0" b_y="1130.0" e_x="195.0" e_y="1040.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="41001536" parent="41001392" id_b="41001408" id_e="41001472" b_x="310.0" b_y="1040.0" e_x="540.0" e_y="1040.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/pos/perm/orient/membership" idtf="" shapeColor="0" id="41001552" parent="0" id_b="41000064" id_e="41001392" b_x="420.0" b_y="120.0" e_x="370.0" e_y="1085.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/pos/perm/orient/membership" idtf="" shapeColor="0" id="41001568" parent="0" id_b="41000112" id_e="41001392" b_x="760.0" b_y="40.0" e_x="370.0" e_y="1085.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/pos/perm/orient/membership" idtf="" shapeColor="0" id="41001584" parent="0" id_b="41000128" id_e="41001392" b_x="760.0" b_y="100.0" e_x="370.0" e_y="1085.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="41001616" parent="41001600" left="0" top="0" right="20" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="1030.0" y="1040.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="_message" shapeColor="0" id="41001632" parent="41001600" left="0" top="0" right="64" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="800.0" y="1040.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="concept_message" shapeColor="0" id="41001648" parent="41001600" left="0" top="0" right="120" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="800.0" y="1130.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_sc_text_translation" shapeColor="0" id="41001664" parent="41001600" left="0" top="0" right="192" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="1030.0" y="1130.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="_q_minage_consulate_8" shapeColor="0" id="41001680" parent="41001600" left="0" top="0" right="168" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="1260.0" y="1040.0" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[какой минимальный возраст для консулата]]></content>
+        </node>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="41001696" parent="41001600" id_b="41001648" id_e="41001632" b_x="800.0" b_y="1130.0" e_x="800.0" e_y="1040.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="41001712" parent="41001600" id_b="41001616" id_e="41001632" b_x="1030.0" b_y="1040.0" e_x="800.0" e_y="1040.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="41001728" parent="41001600" id_b="41001664" id_e="41001712" b_x="1030.0" b_y="1130.0" e_x="915.0" e_y="1040.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="41001744" parent="41001600" id_b="41001616" id_e="41001680" b_x="1030.0" b_y="1040.0" e_x="1260.0" e_y="1040.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/pos/perm/orient/membership" idtf="" shapeColor="0" id="41001760" parent="0" id_b="41000064" id_e="41001600" b_x="420.0" b_y="120.0" e_x="1090.0" e_y="1085.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/pos/perm/orient/membership" idtf="" shapeColor="0" id="41001776" parent="0" id_b="41000112" id_e="41001600" b_x="760.0" b_y="40.0" e_x="1090.0" e_y="1085.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/pos/perm/orient/membership" idtf="" shapeColor="0" id="41001792" parent="0" id_b="41000128" id_e="41001600" b_x="760.0" b_y="100.0" e_x="1090.0" e_y="1085.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <node type="node/var/perm/general" idtf="_message" shapeColor="0" id="41001824" parent="41001808" left="0" top="0" right="64" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="300.0" y="1300.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="concept_message_about_minimum_age" shapeColor="0" id="41001840" parent="41001808" left="0" top="0" right="264" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="300.0" y="1390.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/general" idtf="consulate" shapeColor="0" id="41001856" parent="41001808" left="0" top="0" right="72" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="640.0" y="1300.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/role" idtf="rrel_entity" shapeColor="0" id="41001872" parent="41001808" left="0" top="0" right="88" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="640.0" y="1390.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="41001888" parent="41001808" id_b="41001840" id_e="41001824" b_x="300.0" b_y="1390.0" e_x="300.0" e_y="1300.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="41001904" parent="41001808" id_b="41001824" id_e="41001856" b_x="300.0" b_y="1300.0" e_x="640.0" e_y="1300.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="41001920" parent="41001808" id_b="41001872" id_e="41001904" b_x="640.0" b_y="1390.0" e_x="470.0" e_y="1300.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/pos/perm/orient/membership" idtf="" shapeColor="0" id="41001936" parent="0" id_b="41000112" id_e="41001808" b_x="760.0" b_y="40.0" e_x="530.0" e_y="1345.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/-/perm/orient" idtf="" shapeColor="0" id="41001952" parent="0" id_b="41000064" id_e="41001808" b_x="420.0" b_y="120.0" e_x="530.0" e_y="1345.0" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <node type="node/const/perm/relation" idtf="nrel_implication" shapeColor="0" id="41001968" parent="0" left="0" top="0" right="128" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="1100.0" y="120.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/const/pos/perm/orient/membership" idtf="" shapeColor="0" id="41001984" parent="0" id_b="41001968" id_e="41001952" b_x="1100.0" b_y="120.0" e_x="475.0" e_y="732.5" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/pos/perm/orient/membership" idtf="" shapeColor="0" id="41002000" parent="0" id_b="41000016" id_e="41001952" b_x="120.0" b_y="40.0" e_x="475.0" e_y="732.5" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <node type="node/const/perm/role" idtf="rrel_main_key_sc_element" shapeColor="0" id="41002016" parent="0" left="0" top="0" right="192" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" x="1100.0" y="40.0" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/const/pos/perm/orient/membership" idtf="" shapeColor="0" id="41002032" parent="0" id_b="41002016" id_e="41002000" b_x="1100.0" b_y="40.0" e_x="297.5" e_y="386.2" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="if_minage_consulate_1" shapeColor="0" id="41000144" parent="0" left="0" top="0" right="168" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" idtf_pos_x="-325" idtf_pos_y="-118">
+            <points>
+                <point x="35.0" y="215.0"/>
+                <point x="705.0" y="215.0"/>
+                <point x="705.0" y="395.0"/>
+                <point x="35.0" y="395.0"/>
+            </points>
+        </contour>
+        <contour type="contour/const/perm" idtf="if_minage_consulate_2" shapeColor="0" id="41000352" parent="0" left="0" top="0" right="168" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" idtf_pos_x="-325" idtf_pos_y="-118">
+            <points>
+                <point x="755.0" y="215.0"/>
+                <point x="1425.0" y="215.0"/>
+                <point x="1425.0" y="395.0"/>
+                <point x="755.0" y="395.0"/>
+            </points>
+        </contour>
+        <contour type="contour/const/perm" idtf="if_minage_consulate_3" shapeColor="0" id="41000560" parent="0" left="0" top="0" right="168" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" idtf_pos_x="-325" idtf_pos_y="-118">
+            <points>
+                <point x="35.0" y="475.0"/>
+                <point x="705.0" y="475.0"/>
+                <point x="705.0" y="655.0"/>
+                <point x="35.0" y="655.0"/>
+            </points>
+        </contour>
+        <contour type="contour/const/perm" idtf="if_minage_consulate_4" shapeColor="0" id="41000768" parent="0" left="0" top="0" right="168" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" idtf_pos_x="-325" idtf_pos_y="-118">
+            <points>
+                <point x="755.0" y="475.0"/>
+                <point x="1425.0" y="475.0"/>
+                <point x="1425.0" y="655.0"/>
+                <point x="755.0" y="655.0"/>
+            </points>
+        </contour>
+        <contour type="contour/const/perm" idtf="if_minage_consulate_5" shapeColor="0" id="41000976" parent="0" left="0" top="0" right="168" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" idtf_pos_x="-325" idtf_pos_y="-118">
+            <points>
+                <point x="35.0" y="735.0"/>
+                <point x="705.0" y="735.0"/>
+                <point x="705.0" y="915.0"/>
+                <point x="35.0" y="915.0"/>
+            </points>
+        </contour>
+        <contour type="contour/const/perm" idtf="if_minage_consulate_6" shapeColor="0" id="41001184" parent="0" left="0" top="0" right="168" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" idtf_pos_x="-325" idtf_pos_y="-118">
+            <points>
+                <point x="755.0" y="735.0"/>
+                <point x="1425.0" y="735.0"/>
+                <point x="1425.0" y="915.0"/>
+                <point x="755.0" y="915.0"/>
+            </points>
+        </contour>
+        <contour type="contour/const/perm" idtf="if_minage_consulate_7" shapeColor="0" id="41001392" parent="0" left="0" top="0" right="168" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" idtf_pos_x="-325" idtf_pos_y="-118">
+            <points>
+                <point x="35.0" y="995.0"/>
+                <point x="705.0" y="995.0"/>
+                <point x="705.0" y="1175.0"/>
+                <point x="35.0" y="1175.0"/>
+            </points>
+        </contour>
+        <contour type="contour/const/perm" idtf="if_minage_consulate_8" shapeColor="0" id="41001600" parent="0" left="0" top="0" right="168" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman" font_size="10" idtf_pos_x="-325" idtf_pos_y="-118">
+            <points>
+                <point x="755.0" y="995.0"/>
+                <point x="1425.0" y="995.0"/>
+                <point x="1425.0" y="1175.0"/>
+                <point x="755.0" y="1175.0"/>
+            </points>
+        </contour>
+        <contour type="contour/const/perm" idtf="" shapeColor="0" id="41001808" parent="0">
+            <points>
+                <point x="255.0" y="1255.0"/>
+                <point x="805.0" y="1255.0"/>
+                <point x="805.0" y="1435.0"/>
+                <point x="255.0" y="1435.0"/>
+            </points>
+        </contour>
+    </staticSector>
+</GWF>

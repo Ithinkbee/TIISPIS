@@ -1,0 +1,47 @@
+nrel_ordinal_in_dynasty
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+    [порядковый номер в династии*]
+    (* <- lang_ru;; *);
+=> nrel_idtf:
+    [порядковый номер в династии]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [бинарное ориентированное отношение, связывающее римского императора с его порядковым номером в ряду правителей своей династии]
+    (* <- lang_ru;; *);
+=> nrel_first_domain: concept_roman_emperor;
+=> nrel_second_domain: concept_number;
+=> nrel_definitional_domain:
+    ...
+    (*
+        <= nrel_combination: {
+            concept_roman_emperor;
+            concept_number
+        };;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+    => nrel_main_idtf:
+        [Опр. (порядковый номер в династии*)]
+        (* <- lang_ru;; *);;
+    <- definition;;
+        <= nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Порядковый номер в династии* - бинарное ориентированное отношение, связывающее римского
+             императора с его порядковым номером в ряду правителей своей династии.]
+            (* <- lang_ru;; *);;
+        *);;
+        <= nrel_using_constants: {
+            concept_roman_emperor;
+            concept_number
+        };;
+    *);;

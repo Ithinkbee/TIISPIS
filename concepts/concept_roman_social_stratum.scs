@@ -1,0 +1,16 @@
+concept_roman_social_stratum
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [социальный слой римского общества]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [Группа населения Рима, выделяемая по происхождению, имущественному цензу и объёму прав]
+    (* <- lang_ru;; *);
+<= nrel_subdividing:
+    ...
+    (*
+        <- sc_node_tuple;;
+        -> concept_privileged_stratum;;
+        -> concept_unprivileged_stratum;;
+    *);;

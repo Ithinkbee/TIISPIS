@@ -1,0 +1,47 @@
+nrel_deification
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+    [обожествлён как*]
+    (* <- lang_ru;; *);
+=> nrel_idtf:
+    [обожествлён как]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [бинарное ориентированное отношение, связывающее лицо Древнего Рима с божеством, с которым оно было отождествлено после смерти]
+    (* <- lang_ru;; *);
+=> nrel_first_domain: concept_ancient_roman_person;
+=> nrel_second_domain: concept_roman_deity;
+=> nrel_definitional_domain:
+    ...
+    (*
+        <= nrel_combination: {
+            concept_ancient_roman_person;
+            concept_roman_deity
+        };;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+    => nrel_main_idtf:
+        [Опр. (обожествлён как*)]
+        (* <- lang_ru;; *);;
+    <- definition;;
+        <= nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Обожествлён как* - бинарное ориентированное отношение, связывающее лицо Древнего Рима с
+             божеством, с которым оно было отождествлено после смерти.]
+            (* <- lang_ru;; *);;
+        *);;
+        <= nrel_using_constants: {
+            concept_ancient_roman_person;
+            concept_roman_deity
+        };;
+    *);;

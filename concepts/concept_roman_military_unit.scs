@@ -1,0 +1,16 @@
+concept_roman_military_unit
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [подразделение римской армии]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [Организационная единица римского войска, имеющая штатную численность и командную должность]
+    (* <- lang_ru;; *);
+<= nrel_subdividing:
+    ...
+    (*
+        <- sc_node_tuple;;
+        -> concept_roman_infantry_unit;;
+        -> concept_roman_cavalry_unit;;
+    *);;

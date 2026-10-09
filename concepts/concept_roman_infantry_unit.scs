@@ -1,0 +1,11 @@
+concept_roman_infantry_unit
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [пехотное подразделение]
+    (* <- lang_ru;; *);
+<= nrel_inclusion:
+    concept_roman_military_unit;
+=> nrel_note:
+    [Подразделение римской пехоты. Иерархия строится от контуберния через центурию и манипул к когорте]
+    (* <- lang_ru;; *);;

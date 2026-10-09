@@ -1,0 +1,18 @@
+rrel_office_holder
+<- sc_node_role_relation;
+<- relation;
+<- role_relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+    [занимающий должность']
+    (* <- lang_ru;; *);
+=> nrel_idtf:
+    [занимающий должность]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [Роль лица, занимающего государственную должность, в связке нахождения в должности]
+    (* <- lang_ru;; *);;

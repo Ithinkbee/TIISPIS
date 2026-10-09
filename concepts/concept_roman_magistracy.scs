@@ -1,0 +1,19 @@
+concept_roman_magistracy
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [римская магистратура]
+    (* <- lang_ru;; *);
+<= nrel_inclusion:
+    concept_roman_public_office;
+=> nrel_note:
+    [Выборная государственная должность в Древнем Риме. Римские магистратуры были выборными, коллегиальными,
+     безвозмездными и, как правило, ограниченными годичным сроком полномочий]
+    (* <- lang_ru;; *);
+<= nrel_subdividing:
+    ...
+    (*
+        <- sc_node_tuple;;
+        -> concept_ordinary_magistracy;;
+        -> concept_extraordinary_magistracy;;
+    *);;

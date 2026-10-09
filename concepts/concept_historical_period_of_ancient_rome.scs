@@ -1,0 +1,18 @@
+concept_historical_period_of_ancient_rome
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [период истории Древнего Рима]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [Крупный этап истории Древнего Рима, выделяемый по форме государственного устройства. Традиционная
+     периодизация включает царский период, республику и империю]
+    (* <- lang_ru;; *);
+<= nrel_subdividing:
+    ...
+    (*
+        <- sc_node_tuple;;
+        -> concept_roman_kingdom_period;;
+        -> concept_roman_republic_period;;
+        -> concept_roman_empire_period;;
+    *);;

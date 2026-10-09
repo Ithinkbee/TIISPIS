@@ -1,0 +1,12 @@
+concept_roman_priesthood
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [римская жреческая должность]
+    (* <- lang_ru;; *);
+<= nrel_inclusion:
+    concept_roman_public_office;
+=> nrel_note:
+    [Должность в системе римского государственного культа. Жреческие должности были пожизненными и
+     рассматривались как часть публичной службы, а не как частное занятие]
+    (* <- lang_ru;; *);;

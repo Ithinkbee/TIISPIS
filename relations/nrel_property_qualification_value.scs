@@ -1,0 +1,47 @@
+nrel_property_qualification_value
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+    [величина имущественного ценза*]
+    (* <- lang_ru;; *);
+=> nrel_idtf:
+    [величина имущественного ценза]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [бинарное ориентированное отношение, связывающее имущественный ценз с его числовым выражением]
+    (* <- lang_ru;; *);
+=> nrel_first_domain: concept_property_qualification;
+=> nrel_second_domain: concept_number;
+=> nrel_definitional_domain:
+    ...
+    (*
+        <= nrel_combination: {
+            concept_property_qualification;
+            concept_number
+        };;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+    => nrel_main_idtf:
+        [Опр. (величина имущественного ценза*)]
+        (* <- lang_ru;; *);;
+    <- definition;;
+        <= nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Величина имущественного ценза* - бинарное ориентированное отношение, связывающее имущественный
+             ценз с его числовым выражением.]
+            (* <- lang_ru;; *);;
+        *);;
+        <= nrel_using_constants: {
+            concept_property_qualification;
+            concept_number
+        };;
+    *);;

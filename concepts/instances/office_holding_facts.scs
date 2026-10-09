@@ -1,0 +1,32 @@
+year_59_bc <- concept_year;
+=> nrel_main_idtf: [59 год до н. э.] (* <- lang_ru;; *);;
+year_70_bc <- concept_year;
+=> nrel_main_idtf: [70 год до н. э.] (* <- lang_ru;; *);;
+year_55_bc <- concept_year;
+=> nrel_main_idtf: [55 год до н. э.] (* <- lang_ru;; *);;
+
+caesar_consulate_59_bc
+<- concept_office_holding_fact;
+-> rrel_office_holder: gaius_julius_caesar;
+-> rrel_held_office: consulate;
+-> rrel_term_start_year: year_59_bc;
+-> rrel_term_end_year: year_59_bc;
+=> nrel_main_idtf: [Гай Юлий Цезарь - консул 59 года до н. э.] (* <- lang_ru;; *);;
+
+crassus_consulate_70_bc
+<- concept_office_holding_fact;
+-> rrel_office_holder: marcus_licinius_crassus;
+-> rrel_held_office: consulate;
+-> rrel_term_start_year: year_70_bc;
+-> rrel_term_end_year: year_70_bc;
+-> rrel_ordinal_number: number_1;
+=> nrel_main_idtf: [Марк Лициний Красс - консул 70 года до н. э.] (* <- lang_ru;; *);;
+
+crassus_consulate_55_bc
+<- concept_office_holding_fact;
+-> rrel_office_holder: marcus_licinius_crassus;
+-> rrel_held_office: consulate;
+-> rrel_term_start_year: year_55_bc;
+-> rrel_term_end_year: year_55_bc;
+-> rrel_ordinal_number: number_2;
+=> nrel_main_idtf: [Марк Лициний Красс - консул 55 года до н. э.] (* <- lang_ru;; *);;

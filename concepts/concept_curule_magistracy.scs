@@ -1,0 +1,12 @@
+concept_curule_magistracy
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [курульная магистратура]
+    (* <- lang_ru;; *);
+<= nrel_inclusion:
+    concept_roman_magistracy;
+=> nrel_note:
+    [Магистратура, обладатель которой имел право на курульное кресло как знак высокого ранга. Курульными были
+     консулат, претура, цензура и курульный эдилитет]
+    (* <- lang_ru;; *);;

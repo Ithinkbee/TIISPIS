@@ -1,0 +1,19 @@
+concept_roman_ruler
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [правитель Древнего Рима]
+    (* <- lang_ru;; *);
+<= nrel_inclusion:
+    concept_ancient_roman_person;
+=> nrel_note:
+    [Лицо, обладавшее верховной властью в Римском государстве: царь в царский период либо император в
+     имперский]
+    (* <- lang_ru;; *);
+<= nrel_subdividing:
+    ...
+    (*
+        <- sc_node_tuple;;
+        -> concept_roman_king;;
+        -> concept_roman_emperor;;
+    *);;

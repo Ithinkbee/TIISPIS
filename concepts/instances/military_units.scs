@@ -1,0 +1,68 @@
+contubernium
+<- concept_roman_infantry_unit;
+=> nrel_main_idtf: [контуберний] (* <- lang_ru;; *);
+=> nrel_unit_strength: number_8;
+=> nrel_unit_part: centuria_military;
+=> nrel_note: [Низшая единица римской армии - восемь солдат, деливших палатку, ручную мельницу, мула и котёл. К ним придавались двое нестроевых] (* <- lang_ru;; *);;
+
+centuria_military
+<- concept_roman_infantry_unit;
+=> nrel_main_idtf: [центурия] (* <- lang_ru;; *);
+=> nrel_unit_strength: number_80;
+=> nrel_unit_part: manipulus;
+=> nrel_unit_commander_office: centurio;
+=> nrel_note: [Подразделение из десяти контуберниев. В имперский период численность центурии составляла восемьдесят человек] (* <- lang_ru;; *);;
+
+manipulus
+<- concept_roman_infantry_unit;
+=> nrel_main_idtf: [манипул] (* <- lang_ru;; *);
+=> nrel_unit_strength: number_120;
+=> nrel_unit_part: cohors;
+=> nrel_note: [Тактическая единица манипулярного легиона, состоявшая из двух центурий] (* <- lang_ru;; *);;
+
+cohors
+<- concept_roman_infantry_unit;
+=> nrel_main_idtf: [когорта] (* <- lang_ru;; *);
+=> nrel_unit_strength: number_480;
+=> nrel_unit_part: legio;
+=> nrel_unit_commander_office: pilus_prior;
+=> nrel_note: [Основное тактическое подразделение имперского легиона, состоявшее из шести центурий] (* <- lang_ru;; *);;
+
+cohors_prima
+<- concept_roman_infantry_unit;
+=> nrel_main_idtf: [первая когорта] (* <- lang_ru;; *);
+=> nrel_unit_strength: number_800;
+=> nrel_unit_part: legio;
+=> nrel_unit_commander_office: primus_pilus;
+=> nrel_note: [Усиленная первая когорта легиона почти двойного состава, включавшая пять центурий увеличенной численности] (* <- lang_ru;; *);;
+
+legio
+<- concept_roman_legion;
+=> nrel_main_idtf: [легион] (* <- lang_ru;; *);
+=> nrel_unit_strength: number_5280;
+=> nrel_unit_commander_office: legatus_legionis;
+=> nrel_note: [Основное соединение римской армии, состоявшее из десяти когорт. В имперский период насчитывал около 5280 человек] (* <- lang_ru;; *);;
+
+turma
+<- concept_roman_cavalry_unit;
+=> nrel_main_idtf: [турма] (* <- lang_ru;; *);
+=> nrel_unit_strength: number_30;
+=> nrel_unit_part: ala_cavalry;
+=> nrel_unit_commander_office: decurio;
+=> nrel_note: [Основное подразделение римской конницы численностью в тридцать всадников] (* <- lang_ru;; *);;
+
+ala_cavalry
+<- concept_roman_cavalry_unit;
+=> nrel_main_idtf: [ала] (* <- lang_ru;; *);
+=> nrel_unit_strength: number_300;
+=> nrel_note: [Кавалерийское соединение примерно из трёхсот всадников, состоявшее из десяти турм] (* <- lang_ru;; *);;
+
+auxilia
+<- concept_roman_auxiliary_troops;
+=> nrel_main_idtf: [ауксилии] (* <- lang_ru;; *);
+=> nrel_note: [Вспомогательные войска, набиравшиеся из неграждан. В имперский период по численности сравнялись с легионами и составляли основную часть римской конницы] (* <- lang_ru;; *);;
+
+praetorian_guard
+<- concept_roman_guard_unit;
+=> nrel_main_idtf: [преторианская гвардия] (* <- lang_ru;; *);
+=> nrel_note: [Отборные части, охранявшие императора. Учреждены как постоянная сила при Августе] (* <- lang_ru;; *);;

@@ -1,0 +1,49 @@
+legatus_legionis
+<- concept_roman_military_office;
+=> nrel_main_idtf: [легат легиона] (* <- lang_ru;; *);
+=> nrel_note: [Командующий легионом, сенатор, назначавшийся императором на три-четыре года] (* <- lang_ru;; *);;
+
+tribunus_laticlavius
+<- concept_roman_military_office;
+=> nrel_main_idtf: [трибун-латиклавий] (* <- lang_ru;; *);
+=> nrel_note: [Широкополосный трибун сенаторского ранга, второе лицо в легионе после легата] (* <- lang_ru;; *);;
+
+tribunus_angusticlavius
+<- concept_roman_military_office;
+=> nrel_main_idtf: [трибун-ангустиклавий] (* <- lang_ru;; *);
+=> nrel_note: [Узкополосный трибун всаднического сословия. В легионе их было пятеро, они исполняли штабные обязанности] (* <- lang_ru;; *);;
+
+praefectus_castrorum
+<- concept_roman_military_office;
+=> nrel_main_idtf: [префект лагеря] (* <- lang_ru;; *);
+=> nrel_note: [Третье лицо в легионе, ветеран, отвечавший за лагерь, снабжение и обучение] (* <- lang_ru;; *);;
+
+centurio
+<- concept_roman_military_office;
+=> nrel_main_idtf: [центурион] (* <- lang_ru;; *);
+=> nrel_note: [Командир центурии. В легионе насчитывалось около шестидесяти центурионов, составлявших костяк профессиональной армии] (* <- lang_ru;; *);;
+
+primus_pilus
+<- concept_roman_military_office;
+=> nrel_main_idtf: [примипил] (* <- lang_ru;; *);
+=> nrel_note: [Старший центурион легиона, командовавший первой центурией первой когорты. Получал жалованье в шестьдесят раз выше базового] (* <- lang_ru;; *);;
+
+pilus_prior
+<- concept_roman_military_office;
+=> nrel_main_idtf: [пилус приор] (* <- lang_ru;; *);
+=> nrel_note: [Старший центурион когорты, осуществлявший командование ею] (* <- lang_ru;; *);;
+
+optio
+<- concept_roman_military_office;
+=> nrel_main_idtf: [опцион] (* <- lang_ru;; *);
+=> nrel_note: [Заместитель центуриона, по одному на каждую центурию. Получал двойное жалованье] (* <- lang_ru;; *);;
+
+decurio
+<- concept_roman_military_office;
+=> nrel_main_idtf: [декурион] (* <- lang_ru;; *);
+=> nrel_note: [Командир турмы] (* <- lang_ru;; *);;
+
+aquilifer
+<- concept_roman_military_office;
+=> nrel_main_idtf: [аквилифер] (* <- lang_ru;; *);
+=> nrel_note: [Знаменосец, носивший орла легиона. Получал двойное жалованье] (* <- lang_ru;; *);;
